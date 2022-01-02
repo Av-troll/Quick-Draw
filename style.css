@@ -1,83 +1,53 @@
+.volume_div{
+    float:left;
+}
+.volume_div_img{
+    border-radius: 100px;
+    width:200px;
+
+}
+
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+
 body{
-  background-color:cadetblue ;
+    background-size: cover;
 }
 
-#sketch_name{
-    color: tomato;
+.heading{
+    font-size:24px;
+    width:100%;
+    margin:0;
 }
-#show_sketch{
-    float: right;
-}
-h1{
-    background-color: cadetblue;
-    color: white;
-}
-canvas{
-    border:5px solid white;
-    border-radius: 20px;
-    animation-name: border;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    margin-top: 180px;
-}
-@keyframes border{
-    from{box-shadow: 1px 1px 38px thistle;}
-    to{box-shadow: 1px 1px 38px cadetblue}
-}
-p{
-    padding-top:10px;
-    font-size:25px;
 
+.note{
+    font-size:15px;
+    color: black;
 }
-p,span{
-    padding-top:10px;
-    font-family:'Special Elite,'fantasy;
-    font-size:25px;
-}
-#score{
-    font-size:35px;
-    margin-left:20px;
-}
-#timer{
-    font-size:35px;
-    margin-right:20px;
+
+.speed_div{
     float:right;
 }
-h1
-{
-  font-family: 'Special Elite', fantasy;
-  color:rgb(38, 0, 255);
-  background-color: cornsilk;
-}
-
-#show_sketch
-{
-  float:right;
-}
-
-canvas 
-  {
-    border:5px solid white;
-    border-radius:20px;
-    margin-top:150px;
-    box-shadow:5px 5px 5px grey;
-    box-shadow: 1px 1px 38px #ffffff;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-@keyframes example {
-
-  from {box-shadow: 1px 1px 38px grey;}
-  to {box-shadow: 1px 1px 38px white;}
+.speed_div_img{
+    border-radius: 100px;
+    width:200px;
 
 }
 
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
 
-p, span
-  {
-    padding-top:10px;
-    font-family: 'Special Elite', fantasy;
-    font-size:25px;
-    
-  }
+.play_button{
+    width:130px;
+    font-size:23px;
+}
+
+canvas{
+    border:5px ridge cadetblue;
+    border-radius: 15%;
+    box-shadow:10px 10px 10px gray;
+}
